@@ -10,7 +10,6 @@ const Signup = () => {
     const passwordConfirmationRef = useRef();
 
     const [errors, setErrors] = useState(null);
-
     const { setUser, setToken } = useStateContext();
 
     const onSubmit = (ev) => {
