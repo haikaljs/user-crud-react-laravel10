@@ -10,7 +10,7 @@ use App\Http\Requests\SignupRequest;
 class AuthController extends Controller
 {
     public function login(LoginRequest $request){
-
+        
     }
 
     public function signup(SignupRequest $request){
